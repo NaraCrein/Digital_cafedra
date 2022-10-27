@@ -39,3 +39,13 @@ print('Enter height of carpet: ')
 height = int(input())
 width = 3*height
 print(f'Your height: {height}\nYour width: {width}')
+
+# 6 task
+print('\nTASK 6')
+print('Enter value: ')
+value = int(input())
+result = 1
+while value != 0:
+    result *= value % 10
+    value //= 10
+print(f'Result: {result}')
